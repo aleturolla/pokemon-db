@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { Pokemon } from '@/types/pokemon'
-import { computed } from 'vue';
+
+import TypeBadge from './TypeBadge.vue'
 
 const props = defineProps<{
   pokemon: Pokemon
@@ -23,17 +25,14 @@ const toggleShiny = () => {
     :class="`bg-gradient-${types.join('-')}`"
     >
     <div class="h-full grid gap-2 auto-rows-min content-center justify-items-center p-4 bg-white rounded-xl">
-      <img :src="pokemon.sprites.front_default" :alt="pokemon.name" />
+      <img
+        :src="pokemon.sprites.front_default"
+        :alt="pokemon.name"
+        class="w-24 h-24"
+      />
       <h3 class="text-xl font-semibold">{{ normalizedName }}</h3>
       <div class="space-x-2">
-        <span 
-          v-for="type in types" 
-          :key="type" 
-          :class="`bg-${type}`"
-          class="text-white text-xs py-1 px-3 rounded-full"
-        >
-          {{ type }}
-        </span>
+        <TypeBadge v-for="type in types" :key="type" :type="type" />
       </div>
     </div>
   </div>
@@ -42,17 +41,14 @@ const toggleShiny = () => {
     :class="`bg-gradient-${types.join('-')}`"
     >
     <div class="h-full grid gap-2 auto-rows-min content-center justify-items-center p-4 rounded-xl">
-      <img :src="pokemon.sprites.front_shiny" :alt="pokemon.name" />
+      <img
+        :src="pokemon.sprites.front_shiny || 'src/assets/pokeball-w.png'"
+        :alt="pokemon.name"
+        class="w-24 h-24"
+      />
       <h3 class="text-xl text-white font-semibold">✨ {{ normalizedName }} ✨</h3>
       <div class="space-x-2">
-        <span 
-          v-for="type in types" 
-          :key="type" 
-          :class="`bg-${type}`"
-          class="text-white text-xs py-1 px-3 rounded-full border border-white"
-        >
-          {{ type }}
-        </span>
+        <TypeBadge v-for="type in types" :key="type" :type="type" class="border border-white" />
       </div>
     </div>
   </div>
