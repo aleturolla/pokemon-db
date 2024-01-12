@@ -1,0 +1,1383 @@
+/* BUG */
+.bg-bug {
+  @apply bg-lime-500
+}
+
+.bg-gradient-bug {
+  @apply bg-gradient-to-b from-lime-300 to-lime-500
+}
+
+.bg-gradient-bug-dark {
+  @apply bg-gradient-to-r from-lime-400 to-neutral-700
+}
+
+.bg-gradient-bug-dragon {
+  @apply bg-gradient-to-r from-lime-400 to-indigo-700
+}
+
+.bg-gradient-bug-electric {
+  @apply bg-gradient-to-r from-lime-400 to-yellow-300
+}
+
+.bg-gradient-bug-fairy {
+  @apply bg-gradient-to-r from-lime-400 to-pink-300
+}
+
+.bg-gradient-bug-fighting {
+  @apply bg-gradient-to-r from-lime-400 to-red-700
+}
+
+.bg-gradient-bug-fire {
+  @apply bg-gradient-to-r from-lime-400 to-orange-500
+}
+
+.bg-gradient-bug-flying {
+  @apply bg-gradient-to-r from-lime-400 to-violet-400
+}
+
+.bg-gradient-bug-ghost {
+  @apply bg-gradient-to-r from-lime-400 to-violet-700
+}
+
+.bg-gradient-bug-grass {
+  @apply bg-gradient-to-r from-lime-400 to-green-400
+}
+
+.bg-gradient-bug-ground {
+  @apply bg-gradient-to-r from-lime-400 to-yellow-600
+}
+
+.bg-gradient-bug-ice {
+  @apply bg-gradient-to-r from-lime-400 to-cyan-300
+}
+
+.bg-gradient-bug-normal {
+  @apply bg-gradient-to-r from-lime-400 to-neutral-400
+}
+
+.bg-gradient-bug-poison {
+  @apply bg-gradient-to-r from-lime-400 to-purple-700
+}
+
+.bg-gradient-bug-psychic {
+  @apply bg-gradient-to-r from-lime-400 to-fuchsia-500
+}
+
+.bg-gradient-bug-rock {
+  @apply bg-gradient-to-r from-lime-400 to-amber-700
+}
+
+.bg-gradient-bug-steel {
+  @apply bg-gradient-to-r from-lime-400 to-slate-400
+}
+
+.bg-gradient-bug-water {
+  @apply bg-gradient-to-r from-lime-400 to-blue-400
+}
+
+/* DARK */
+.bg-dark {
+  @apply bg-neutral-800
+}
+
+.bg-gradient-dark {
+  @apply bg-gradient-to-b from-neutral-600 to-neutral-800
+}
+
+.bg-gradient-dark-bug {
+  @apply bg-gradient-to-r from-neutral-700 to-lime-400
+}
+
+.bg-gradient-dark-dragon {
+  @apply bg-gradient-to-r from-neutral-700 to-indigo-700
+}
+
+.bg-gradient-dark-electric {
+  @apply bg-gradient-to-r from-neutral-700 to-yellow-300
+}
+
+.bg-gradient-dark-fairy {
+  @apply bg-gradient-to-r from-neutral-700 to-pink-300
+}
+
+.bg-gradient-dark-fighting {
+  @apply bg-gradient-to-r from-neutral-700 to-red-700
+}
+
+.bg-gradient-dark-fire {
+  @apply bg-gradient-to-r from-neutral-700 to-orange-500
+}
+
+.bg-gradient-dark-flying {
+  @apply bg-gradient-to-r from-neutral-700 to-violet-400
+}
+
+.bg-gradient-dark-ghost {
+  @apply bg-gradient-to-r from-neutral-700 to-violet-700
+}
+
+.bg-gradient-dark-grass {
+  @apply bg-gradient-to-r from-neutral-700 to-green-400
+}
+
+.bg-gradient-dark-ground {
+  @apply bg-gradient-to-r from-neutral-700 to-yellow-600
+}
+
+.bg-gradient-dark-ice {
+  @apply bg-gradient-to-r from-neutral-700 to-cyan-300
+}
+
+.bg-gradient-dark-normal {
+  @apply bg-gradient-to-r from-neutral-700 to-neutral-400
+}
+
+.bg-gradient-dark-poison {
+  @apply bg-gradient-to-r from-neutral-700 to-purple-700
+}
+
+.bg-gradient-dark-psychic {
+  @apply bg-gradient-to-r from-neutral-700 to-fuchsia-500
+}
+
+.bg-gradient-dark-rock {
+  @apply bg-gradient-to-r from-neutral-700 to-amber-700
+}
+
+.bg-gradient-dark-steel {
+  @apply bg-gradient-to-r from-neutral-700 to-slate-400
+}
+
+.bg-gradient-dark-water {
+  @apply bg-gradient-to-r from-neutral-700 to-blue-400
+}
+
+/* DRAGON */
+.bg-dragon {
+  @apply bg-indigo-800
+}
+
+.bg-gradient-dragon {
+  @apply bg-gradient-to-b from-indigo-600 to-indigo-800
+}
+.bg-gradient-dragon-bug {
+  @apply bg-gradient-to-r from-indigo-700 to-lime-400
+}
+
+.bg-gradient-dragon-dark {
+  @apply bg-gradient-to-r from-indigo-700 to-neutral-700
+}
+
+.bg-gradient-dragon-electric {
+  @apply bg-gradient-to-r from-indigo-700 to-yellow-300
+}
+
+.bg-gradient-dragon-fairy {
+  @apply bg-gradient-to-r from-indigo-700 to-pink-300
+}
+
+.bg-gradient-dragon-fighting {
+  @apply bg-gradient-to-r from-indigo-700 to-red-700
+}
+
+.bg-gradient-dragon-fire {
+  @apply bg-gradient-to-r from-indigo-700 to-orange-500
+}
+
+.bg-gradient-dragon-flying {
+  @apply bg-gradient-to-r from-indigo-700 to-violet-400
+}
+
+.bg-gradient-dragon-ghost {
+  @apply bg-gradient-to-r from-indigo-700 to-violet-700
+}
+
+.bg-gradient-dragon-grass {
+  @apply bg-gradient-to-r from-indigo-700 to-green-400
+}
+
+.bg-gradient-dragon-ground {
+  @apply bg-gradient-to-r from-indigo-700 to-yellow-600
+}
+
+.bg-gradient-dragon-ice {
+  @apply bg-gradient-to-r from-indigo-700 to-cyan-300
+}
+
+.bg-gradient-dragon-normal {
+  @apply bg-gradient-to-r from-indigo-700 to-neutral-400
+}
+
+.bg-gradient-dragon-poison {
+  @apply bg-gradient-to-r from-indigo-700 to-purple-700
+}
+
+.bg-gradient-dragon-psychic {
+  @apply bg-gradient-to-r from-indigo-700 to-fuchsia-500
+}
+
+.bg-gradient-dragon-rock {
+  @apply bg-gradient-to-r from-indigo-700 to-amber-700
+}
+
+.bg-gradient-dragon-steel {
+  @apply bg-gradient-to-r from-indigo-700 to-slate-400
+}
+
+.bg-gradient-dragon-water {
+  @apply bg-gradient-to-r from-indigo-700 to-blue-400
+}
+
+/* ELECTRIC */
+.bg-electric {
+  @apply bg-yellow-400
+}
+
+.bg-gradient-electric {
+  @apply bg-gradient-to-b from-yellow-200 to-yellow-400
+}
+.bg-gradient-electric-bug {
+  @apply bg-gradient-to-r from-yellow-300 to-lime-400
+}
+
+.bg-gradient-electric-dark {
+  @apply bg-gradient-to-r from-yellow-300 to-neutral-700
+}
+
+.bg-gradient-electric-dragon {
+  @apply bg-gradient-to-r from-yellow-300 to-indigo-700
+}
+
+.bg-gradient-electric-fairy {
+  @apply bg-gradient-to-r from-yellow-300 to-pink-300
+}
+
+.bg-gradient-electric-fighting {
+  @apply bg-gradient-to-r from-yellow-300 to-red-700
+}
+
+.bg-gradient-electric-fire {
+  @apply bg-gradient-to-r from-yellow-300 to-orange-500
+}
+
+.bg-gradient-electric-flying {
+  @apply bg-gradient-to-r from-yellow-300 to-violet-400
+}
+
+.bg-gradient-electric-ghost {
+  @apply bg-gradient-to-r from-yellow-300 to-violet-700
+}
+
+.bg-gradient-electric-grass {
+  @apply bg-gradient-to-r from-yellow-300 to-green-400
+}
+
+.bg-gradient-electric-ground {
+  @apply bg-gradient-to-r from-yellow-300 to-yellow-600
+}
+
+.bg-gradient-electric-ice {
+  @apply bg-gradient-to-r from-yellow-300 to-cyan-300
+}
+
+.bg-gradient-electric-normal {
+  @apply bg-gradient-to-r from-yellow-300 to-neutral-400
+}
+
+.bg-gradient-electric-poison {
+  @apply bg-gradient-to-r from-yellow-300 to-purple-700
+}
+
+.bg-gradient-electric-psychic {
+  @apply bg-gradient-to-r from-yellow-300 to-fuchsia-500
+}
+
+.bg-gradient-electric-rock {
+  @apply bg-gradient-to-r from-yellow-300 to-amber-700
+}
+
+.bg-gradient-electric-steel {
+  @apply bg-gradient-to-r from-yellow-300 to-slate-400
+}
+
+.bg-gradient-electric-water {
+  @apply bg-gradient-to-r from-yellow-300 to-blue-400
+}
+
+/* FAIRY */
+.bg-fairy {
+  @apply bg-pink-400
+}
+
+.bg-gradient-fairy {
+  @apply bg-gradient-to-b from-pink-200 to-pink-400
+}
+
+.bg-gradient-fairy-bug {
+  @apply bg-gradient-to-r from-pink-300 to-lime-400
+}
+
+.bg-gradient-fairy-dark {
+  @apply bg-gradient-to-r from-pink-300 to-neutral-700
+}
+
+.bg-gradient-fairy-dragon {
+  @apply bg-gradient-to-r from-pink-300 to-indigo-700
+}
+
+.bg-gradient-fairy-electric {
+  @apply bg-gradient-to-r from-pink-300 to-yellow-300
+}
+
+.bg-gradient-fairy-fighting {
+  @apply bg-gradient-to-r from-pink-300 to-red-700
+}
+
+.bg-gradient-fairy-fire {
+  @apply bg-gradient-to-r from-pink-300 to-orange-500
+}
+
+.bg-gradient-fairy-flying {
+  @apply bg-gradient-to-r from-pink-300 to-violet-400
+}
+
+.bg-gradient-fairy-ghost {
+  @apply bg-gradient-to-r from-pink-300 to-violet-700
+}
+
+.bg-gradient-fairy-grass {
+  @apply bg-gradient-to-r from-pink-300 to-green-400
+}
+
+.bg-gradient-fairy-ground {
+  @apply bg-gradient-to-r from-pink-300 to-yellow-600
+}
+
+.bg-gradient-fairy-ice {
+  @apply bg-gradient-to-r from-pink-300 to-cyan-300
+}
+
+.bg-gradient-fairy-normal {
+  @apply bg-gradient-to-r from-pink-300 to-neutral-400
+}
+
+.bg-gradient-fairy-poison {
+  @apply bg-gradient-to-r from-pink-300 to-purple-700
+}
+
+.bg-gradient-fairy-psychic {
+  @apply bg-gradient-to-r from-pink-300 to-fuchsia-500
+}
+
+.bg-gradient-fairy-rock {
+  @apply bg-gradient-to-r from-pink-300 to-amber-700
+}
+
+.bg-gradient-fairy-steel {
+  @apply bg-gradient-to-r from-pink-300 to-slate-400
+}
+
+.bg-gradient-fairy-water {
+  @apply bg-gradient-to-r from-pink-300 to-blue-400
+}
+
+/* FIGHTING */
+.bg-fighting {
+  @apply bg-red-800
+}
+
+.bg-gradient-fighting {
+  @apply bg-gradient-to-b from-red-600 to-red-800
+}
+
+.bg-gradient-fighting-bug {
+  @apply bg-gradient-to-r from-red-600 to-lime-400
+}
+
+.bg-gradient-fighting-dark {
+  @apply bg-gradient-to-r from-red-600 to-neutral-700
+}
+
+.bg-gradient-fighting-dragon {
+  @apply bg-gradient-to-r from-red-600 to-indigo-700
+}
+
+.bg-gradient-fighting-electric {
+  @apply bg-gradient-to-r from-red-600 to-yellow-300
+}
+
+.bg-gradient-fighting-fairy {
+  @apply bg-gradient-to-r from-red-600 to-pink-300
+}
+
+.bg-gradient-fighting-fire {
+  @apply bg-gradient-to-r from-red-600 to-orange-500
+}
+
+.bg-gradient-fighting-flying {
+  @apply bg-gradient-to-r from-red-600 to-violet-400
+}
+
+.bg-gradient-fighting-ghost {
+  @apply bg-gradient-to-r from-red-600 to-violet-700
+}
+
+.bg-gradient-fighting-grass {
+  @apply bg-gradient-to-r from-red-600 to-green-400
+}
+
+.bg-gradient-fighting-ground {
+  @apply bg-gradient-to-r from-red-600 to-yellow-600
+}
+
+.bg-gradient-fighting-ice {
+  @apply bg-gradient-to-r from-red-600 to-cyan-300
+}
+
+.bg-gradient-fighting-normal {
+  @apply bg-gradient-to-r from-red-600 to-neutral-400
+}
+
+.bg-gradient-fighting-poison {
+  @apply bg-gradient-to-r from-red-600 to-purple-700
+}
+
+.bg-gradient-fighting-psychic {
+  @apply bg-gradient-to-r from-red-600 to-fuchsia-500
+}
+
+.bg-gradient-fighting-rock {
+  @apply bg-gradient-to-r from-red-600 to-amber-700
+}
+
+.bg-gradient-fighting-steel {
+  @apply bg-gradient-to-r from-red-600 to-slate-400
+}
+
+.bg-gradient-fighting-water {
+  @apply bg-gradient-to-r from-red-600 to-blue-400
+}
+
+/* FIRE */
+.bg-fire {
+  @apply bg-orange-600
+}
+
+.bg-gradient-fire {
+  @apply bg-gradient-to-b from-orange-400 to-orange-600
+}
+
+.bg-gradient-fire-bug {
+  @apply bg-gradient-to-r from-orange-500 to-lime-400
+}
+
+.bg-gradient-fire-dark {
+  @apply bg-gradient-to-r from-orange-500 to-neutral-700
+}
+
+.bg-gradient-fire-dragon {
+  @apply bg-gradient-to-r from-orange-500 to-indigo-700
+}
+
+.bg-gradient-fire-electric {
+  @apply bg-gradient-to-r from-orange-500 to-yellow-300
+}
+
+.bg-gradient-fire-fairy {
+  @apply bg-gradient-to-r from-orange-500 to-pink-300
+}
+
+.bg-gradient-fire-fighting {
+  @apply bg-gradient-to-r from-orange-500 to-red-700
+}
+
+.bg-gradient-fire-flying {
+  @apply bg-gradient-to-r from-orange-500 to-violet-400
+}
+
+.bg-gradient-fire-ghost {
+  @apply bg-gradient-to-r from-orange-500 to-violet-700
+}
+
+.bg-gradient-fire-grass {
+  @apply bg-gradient-to-r from-orange-500 to-green-400
+}
+
+.bg-gradient-fire-ground {
+  @apply bg-gradient-to-r from-orange-500 to-yellow-600
+}
+
+.bg-gradient-fire-ice {
+  @apply bg-gradient-to-r from-orange-500 to-cyan-300
+}
+
+.bg-gradient-fire-normal {
+  @apply bg-gradient-to-r from-orange-500 to-neutral-400
+}
+
+.bg-gradient-fire-poison {
+  @apply bg-gradient-to-r from-orange-500 to-purple-700
+}
+
+.bg-gradient-fire-psychic {
+  @apply bg-gradient-to-r from-orange-500 to-fuchsia-500
+}
+
+.bg-gradient-fire-rock {
+  @apply bg-gradient-to-r from-orange-500 to-amber-700
+}
+
+.bg-gradient-fire-steel {
+  @apply bg-gradient-to-r from-orange-500 to-slate-400
+}
+
+.bg-gradient-fire-water {
+  @apply bg-gradient-to-r from-orange-500 to-blue-400
+}
+
+/* FLYING */
+.bg-flying {
+  @apply bg-violet-500
+}
+
+.bg-gradient-flying {
+  @apply bg-violet-500
+}
+
+.bg-gradient-flying-bug {
+  @apply bg-gradient-to-r from-violet-400 to-lime-400
+}
+
+.bg-gradient-flying-dark {
+  @apply bg-gradient-to-r from-violet-400 to-neutral-700
+}
+
+.bg-gradient-flying-dragon {
+  @apply bg-gradient-to-r from-violet-400 to-indigo-700
+}
+
+.bg-gradient-flying-electric {
+  @apply bg-gradient-to-r from-violet-400 to-yellow-300
+}
+
+.bg-gradient-flying-fairy {
+  @apply bg-gradient-to-r from-violet-400 to-pink-300
+}
+
+.bg-gradient-flying-fighting {
+  @apply bg-gradient-to-r from-violet-400 to-red-700
+}
+
+.bg-gradient-flying-fire {
+  @apply bg-gradient-to-r from-violet-400 to-orange-500
+}
+
+.bg-gradient-flying-ghost {
+  @apply bg-gradient-to-r from-violet-400 to-violet-700
+}
+
+.bg-gradient-flying-grass {
+  @apply bg-gradient-to-r from-violet-400 to-green-400
+}
+
+.bg-gradient-flying-ground {
+  @apply bg-gradient-to-r from-violet-400 to-yellow-600
+}
+
+.bg-gradient-flying-ice {
+  @apply bg-gradient-to-r from-violet-400 to-cyan-300
+}
+
+.bg-gradient-flying-normal {
+  @apply bg-gradient-to-r from-violet-400 to-neutral-400
+}
+
+.bg-gradient-flying-poison {
+  @apply bg-gradient-to-r from-violet-400 to-purple-700
+}
+
+.bg-gradient-flying-psychic {
+  @apply bg-gradient-to-r from-violet-400 to-fuchsia-500
+}
+
+.bg-gradient-flying-rock {
+  @apply bg-gradient-to-r from-violet-400 to-amber-700
+}
+
+.bg-gradient-flying-steel {
+  @apply bg-gradient-to-r from-violet-400 to-slate-400
+}
+
+.bg-gradient-flying-water {
+  @apply bg-gradient-to-r from-violet-400 to-blue-400
+}
+
+/* GHOST */
+.bg-ghost {
+  @apply bg-violet-800
+}
+
+.bg-gradient-ghost {
+  @apply bg-gradient-to-b from-violet-600 to-violet-800
+}
+
+.bg-gradient-ghost-bug {
+  @apply bg-gradient-to-r from-violet-700 to-lime-400
+}
+
+.bg-gradient-ghost-dark {
+  @apply bg-gradient-to-r from-violet-700 to-neutral-700
+}
+
+.bg-gradient-ghost-dragon {
+  @apply bg-gradient-to-r from-violet-700 to-indigo-700
+}
+
+.bg-gradient-ghost-electric {
+  @apply bg-gradient-to-r from-violet-700 to-yellow-300
+}
+
+.bg-gradient-ghost-fairy {
+  @apply bg-gradient-to-r from-violet-700 to-pink-300
+}
+
+.bg-gradient-ghost-fighting {
+  @apply bg-gradient-to-r from-violet-700 to-red-700
+}
+
+.bg-gradient-ghost-fire {
+  @apply bg-gradient-to-r from-violet-700 to-orange-500
+}
+
+.bg-gradient-ghost-flying {
+  @apply bg-gradient-to-r from-violet-700 to-violet-400
+}
+
+.bg-gradient-ghost-grass {
+  @apply bg-gradient-to-r from-violet-700 to-green-400
+}
+
+.bg-gradient-ghost-ground {
+  @apply bg-gradient-to-r from-violet-700 to-yellow-600
+}
+
+.bg-gradient-ghost-ice {
+  @apply bg-gradient-to-r from-violet-700 to-cyan-300
+}
+
+.bg-gradient-ghost-normal {
+  @apply bg-gradient-to-r from-violet-700 to-neutral-400
+}
+
+.bg-gradient-ghost-poison {
+  @apply bg-gradient-to-r from-violet-700 to-purple-700
+}
+
+.bg-gradient-ghost-psychic {
+  @apply bg-gradient-to-r from-violet-700 to-fuchsia-500
+}
+
+.bg-gradient-ghost-rock {
+  @apply bg-gradient-to-r from-violet-700 to-amber-700
+}
+
+.bg-gradient-ghost-steel {
+  @apply bg-gradient-to-r from-violet-700 to-slate-400
+}
+
+.bg-gradient-ghost-water {
+  @apply bg-gradient-to-r from-violet-700 to-blue-400
+}
+
+/* GRASS */
+.bg-grass {
+  @apply bg-green-500
+}
+
+.bg-gradient-grass {
+  @apply bg-gradient-to-b from-green-300 to-green-500
+}
+
+.bg-gradient-grass-bug {
+  @apply bg-gradient-to-r from-green-400 to-lime-400
+}
+
+.bg-gradient-grass-dark {
+  @apply bg-gradient-to-r from-green-400 to-neutral-700
+}
+
+.bg-gradient-grass-dragon {
+  @apply bg-gradient-to-r from-green-400 to-indigo-700
+}
+
+.bg-gradient-grass-electric {
+  @apply bg-gradient-to-r from-green-400 to-yellow-300
+}
+
+.bg-gradient-grass-fairy {
+  @apply bg-gradient-to-r from-green-400 to-pink-300
+}
+
+.bg-gradient-grass-fighting {
+  @apply bg-gradient-to-r from-green-400 to-red-700
+}
+
+.bg-gradient-grass-fire {
+  @apply bg-gradient-to-r from-green-400 to-orange-500
+}
+
+.bg-gradient-grass-flying {
+  @apply bg-gradient-to-r from-green-400 to-violet-400
+}
+
+.bg-gradient-grass-ghost {
+  @apply bg-gradient-to-r from-green-400 to-violet-700
+}
+
+.bg-gradient-grass-ground {
+  @apply bg-gradient-to-r from-green-400 to-yellow-600
+}
+
+.bg-gradient-grass-ice {
+  @apply bg-gradient-to-r from-green-400 to-cyan-300
+}
+
+.bg-gradient-grass-normal {
+  @apply bg-gradient-to-r from-green-400 to-neutral-400
+}
+
+.bg-gradient-grass-poison {
+  @apply bg-gradient-to-r from-green-400 to-purple-700
+}
+
+.bg-gradient-grass-psychic {
+  @apply bg-gradient-to-r from-green-400 to-fuchsia-500
+}
+
+.bg-gradient-grass-rock {
+  @apply bg-gradient-to-r from-green-400 to-amber-700
+}
+
+.bg-gradient-grass-steel {
+  @apply bg-gradient-to-r from-green-400 to-slate-400
+}
+
+.bg-gradient-grass-water {
+  @apply bg-gradient-to-r from-green-400 to-blue-400
+}
+
+/* GROUND */
+.bg-ground {
+  @apply bg-yellow-700
+}
+
+.bg-gradient-ground {
+  @apply bg-gradient-to-b from-yellow-500 to-yellow-700
+}
+
+.bg-gradient-ground-bug {
+  @apply bg-gradient-to-r from-yellow-600 to-lime-400
+}
+
+.bg-gradient-ground-dark {
+  @apply bg-gradient-to-r from-yellow-600 to-neutral-700
+}
+
+.bg-gradient-ground-dragon {
+  @apply bg-gradient-to-r from-yellow-600 to-indigo-700
+}
+
+.bg-gradient-ground-electric {
+  @apply bg-gradient-to-r from-yellow-600 to-yellow-300
+}
+
+.bg-gradient-ground-fairy {
+  @apply bg-gradient-to-r from-yellow-600 to-pink-300
+}
+
+.bg-gradient-ground-fighting {
+  @apply bg-gradient-to-r from-yellow-600 to-red-700
+}
+
+.bg-gradient-ground-fire {
+  @apply bg-gradient-to-r from-yellow-600 to-orange-500
+}
+
+.bg-gradient-ground-flying {
+  @apply bg-gradient-to-r from-yellow-600 to-violet-400
+}
+
+.bg-gradient-ground-ghost {
+  @apply bg-gradient-to-r from-yellow-600 to-violet-700
+}
+
+.bg-gradient-ground-grass {
+  @apply bg-gradient-to-r from-yellow-600 to-green-400
+}
+
+.bg-gradient-ground-ice {
+  @apply bg-gradient-to-r from-yellow-600 to-cyan-300
+}
+
+.bg-gradient-ground-normal {
+  @apply bg-gradient-to-r from-yellow-600 to-neutral-400
+}
+
+.bg-gradient-ground-poison {
+  @apply bg-gradient-to-r from-yellow-600 to-purple-700
+}
+
+.bg-gradient-ground-psychic {
+  @apply bg-gradient-to-r from-yellow-600 to-fuchsia-500
+}
+
+.bg-gradient-ground-rock {
+  @apply bg-gradient-to-r from-yellow-600 to-amber-700
+}
+
+.bg-gradient-ground-steel {
+  @apply bg-gradient-to-r from-yellow-600 to-slate-400
+}
+
+.bg-gradient-ground-water {
+  @apply bg-gradient-to-r from-yellow-600 to-blue-400
+}
+
+/* ICE */
+.bg-ice {
+  @apply bg-cyan-400
+}
+
+.bg-gradient-ice {
+  @apply bg-gradient-to-b from-cyan-200 to-cyan-400
+}
+
+.bg-gradient-ice-bug {
+  @apply bg-gradient-to-r from-cyan-300 to-lime-400
+}
+
+.bg-gradient-ice-dark {
+  @apply bg-gradient-to-r from-cyan-300 to-neutral-700
+}
+
+.bg-gradient-ice-dragon {
+  @apply bg-gradient-to-r from-cyan-300 to-indigo-700
+}
+
+.bg-gradient-ice-electric {
+  @apply bg-gradient-to-r from-cyan-300 to-yellow-300
+}
+
+.bg-gradient-ice-fairy {
+  @apply bg-gradient-to-r from-cyan-300 to-pink-300
+}
+
+.bg-gradient-ice-fighting {
+  @apply bg-gradient-to-r from-cyan-300 to-red-700
+}
+
+.bg-gradient-ice-fire {
+  @apply bg-gradient-to-r from-cyan-300 to-orange-500
+}
+
+.bg-gradient-ice-flying {
+  @apply bg-gradient-to-r from-cyan-300 to-violet-400
+}
+
+.bg-gradient-ice-ghost {
+  @apply bg-gradient-to-r from-cyan-300 to-violet-700
+}
+
+.bg-gradient-ice-grass {
+  @apply bg-gradient-to-r from-cyan-300 to-green-400
+}
+
+.bg-gradient-ice-ground {
+  @apply bg-gradient-to-r from-cyan-300 to-yellow-600
+}
+
+.bg-gradient-ice-normal {
+  @apply bg-gradient-to-r from-cyan-300 to-neutral-400
+}
+
+.bg-gradient-ice-poison {
+  @apply bg-gradient-to-r from-cyan-300 to-purple-700
+}
+
+.bg-gradient-ice-psychic {
+  @apply bg-gradient-to-r from-cyan-300 to-fuchsia-500
+}
+
+.bg-gradient-ice-rock {
+  @apply bg-gradient-to-r from-cyan-300 to-amber-700
+}
+
+.bg-gradient-ice-steel {
+  @apply bg-gradient-to-r from-cyan-300 to-slate-400
+}
+
+.bg-gradient-ice-water {
+  @apply bg-gradient-to-r from-cyan-300 to-blue-400
+}
+
+/* NORMAL */
+.bg-normal {
+  @apply bg-neutral-500
+}
+
+.bg-gradient-normal {
+  @apply bg-gradient-to-b from-neutral-300 to-neutral-500
+}
+
+.bg-gradient-normal-bug {
+  @apply bg-gradient-to-r from-neutral-400 to-lime-400
+}
+
+.bg-gradient-normal-dark {
+  @apply bg-gradient-to-r from-neutral-400 to-neutral-700
+}
+
+.bg-gradient-normal-dragon {
+  @apply bg-gradient-to-r from-neutral-400 to-indigo-700
+}
+
+.bg-gradient-normal-electric {
+  @apply bg-gradient-to-r from-neutral-400 to-yellow-300
+}
+
+.bg-gradient-normal-fairy {
+  @apply bg-gradient-to-r from-neutral-400 to-pink-300
+}
+
+.bg-gradient-normal-fighting {
+  @apply bg-gradient-to-r from-neutral-400 to-red-700
+}
+
+.bg-gradient-normal-fire {
+  @apply bg-gradient-to-r from-neutral-400 to-orange-500
+}
+
+.bg-gradient-normal-flying {
+  @apply bg-gradient-to-r from-neutral-400 to-violet-400
+}
+
+.bg-gradient-normal-ghost {
+  @apply bg-gradient-to-r from-neutral-400 to-violet-700
+}
+
+.bg-gradient-normal-grass {
+  @apply bg-gradient-to-r from-neutral-400 to-green-400
+}
+
+.bg-gradient-normal-ground {
+  @apply bg-gradient-to-r from-neutral-400 to-yellow-600
+}
+
+.bg-gradient-normal-ice {
+  @apply bg-gradient-to-r from-neutral-400 to-cyan-300
+}
+
+.bg-gradient-normal-poison {
+  @apply bg-gradient-to-r from-neutral-400 to-purple-700
+}
+
+.bg-gradient-normal-psychic {
+  @apply bg-gradient-to-r from-neutral-400 to-fuchsia-500
+}
+
+.bg-gradient-normal-rock {
+  @apply bg-gradient-to-r from-neutral-400 to-amber-700
+}
+
+.bg-gradient-normal-steel {
+  @apply bg-gradient-to-r from-neutral-400 to-slate-400
+}
+
+.bg-gradient-normal-water {
+  @apply bg-gradient-to-r from-neutral-400 to-blue-400
+}
+
+/* POISON */
+.bg-poison {
+  @apply bg-purple-800
+}
+
+.bg-gradient-poison {
+  @apply bg-gradient-to-b from-purple-600 to-purple-800
+}
+
+.bg-gradient-poison-bug {
+  @apply bg-gradient-to-r from-purple-700 to-lime-400
+}
+
+.bg-gradient-poison-dark {
+  @apply bg-gradient-to-r from-purple-700 to-neutral-700
+}
+
+.bg-gradient-poison-dragon {
+  @apply bg-gradient-to-r from-purple-700 to-indigo-700
+}
+
+.bg-gradient-poison-electric {
+  @apply bg-gradient-to-r from-purple-700 to-yellow-300
+}
+
+.bg-gradient-poison-fairy {
+  @apply bg-gradient-to-r from-purple-700 to-pink-300
+}
+
+.bg-gradient-poison-fighting {
+  @apply bg-gradient-to-r from-purple-700 to-red-700
+}
+
+.bg-gradient-poison-fire {
+  @apply bg-gradient-to-r from-purple-700 to-orange-500
+}
+
+.bg-gradient-poison-flying {
+  @apply bg-gradient-to-r from-purple-700 to-violet-400
+}
+
+.bg-gradient-poison-ghost {
+  @apply bg-gradient-to-r from-purple-700 to-violet-700
+}
+
+.bg-gradient-poison-grass {
+  @apply bg-gradient-to-r from-purple-700 to-green-400
+}
+
+.bg-gradient-poison-ground {
+  @apply bg-gradient-to-r from-purple-700 to-yellow-600
+}
+
+.bg-gradient-poison-ice {
+  @apply bg-gradient-to-r from-purple-700 to-cyan-300
+}
+
+.bg-gradient-poison-normal {
+  @apply bg-gradient-to-r from-purple-700 to-neutral-400
+}
+
+.bg-gradient-poison-psychic {
+  @apply bg-gradient-to-r from-purple-700 to-fuchsia-500
+}
+
+.bg-gradient-poison-rock {
+  @apply bg-gradient-to-r from-purple-700 to-amber-700
+}
+
+.bg-gradient-poison-steel {
+  @apply bg-gradient-to-r from-purple-700 to-slate-400
+}
+
+.bg-gradient-poison-water {
+  @apply bg-gradient-to-r from-purple-700 to-blue-400
+}
+
+/* PSYCHIC */
+.bg-psychic {
+  @apply bg-fuchsia-600
+}
+
+.bg-gradient-psychic {
+  @apply bg-gradient-to-b from-fuchsia-400 to-fuchsia-600
+}
+
+.bg-gradient-psychic-bug {
+  @apply bg-gradient-to-r from-fuchsia-500 to-lime-400
+}
+
+.bg-gradient-psychic-dark {
+  @apply bg-gradient-to-r from-fuchsia-500 to-neutral-700
+}
+
+.bg-gradient-psychic-dragon {
+  @apply bg-gradient-to-r from-fuchsia-500 to-indigo-700
+}
+
+.bg-gradient-psychic-electric {
+  @apply bg-gradient-to-r from-fuchsia-500 to-yellow-300
+}
+
+.bg-gradient-psychic-fairy {
+  @apply bg-gradient-to-r from-fuchsia-500 to-pink-300
+}
+
+.bg-gradient-psychic-fighting {
+  @apply bg-gradient-to-r from-fuchsia-500 to-red-700
+}
+
+.bg-gradient-psychic-fire {
+  @apply bg-gradient-to-r from-fuchsia-500 to-orange-500
+}
+
+.bg-gradient-psychic-flying {
+  @apply bg-gradient-to-r from-fuchsia-500 to-violet-400
+}
+
+.bg-gradient-psychic-ghost {
+  @apply bg-gradient-to-r from-fuchsia-500 to-violet-700
+}
+
+.bg-gradient-psychic-grass {
+  @apply bg-gradient-to-r from-fuchsia-500 to-green-400
+}
+
+.bg-gradient-psychic-ground {
+  @apply bg-gradient-to-r from-fuchsia-500 to-yellow-600
+}
+
+.bg-gradient-psychic-ice {
+  @apply bg-gradient-to-r from-fuchsia-500 to-cyan-300
+}
+
+.bg-gradient-psychic-normal {
+  @apply bg-gradient-to-r from-fuchsia-500 to-neutral-400
+}
+
+.bg-gradient-psychic-poison {
+  @apply bg-gradient-to-r from-fuchsia-500 to-purple-700
+}
+
+.bg-gradient-psychic-rock {
+  @apply bg-gradient-to-r from-fuchsia-500 to-amber-700
+}
+
+.bg-gradient-psychic-steel {
+  @apply bg-gradient-to-r from-fuchsia-500 to-slate-400
+}
+
+.bg-gradient-psychic-water {
+  @apply bg-gradient-to-r from-fuchsia-500 to-blue-400
+}
+
+/* ROCK */
+.bg-rock {
+  @apply bg-amber-800
+}
+
+.bg-gradient-rock {
+  @apply bg-gradient-to-b from-amber-600 to-amber-800
+}
+
+.bg-gradient-rock-bug {
+  @apply bg-gradient-to-r from-amber-700 to-lime-400
+}
+
+.bg-gradient-rock-dark {
+  @apply bg-gradient-to-r from-amber-700 to-neutral-700
+}
+
+.bg-gradient-rock-dragon {
+  @apply bg-gradient-to-r from-amber-700 to-indigo-700
+}
+
+.bg-gradient-rock-electric {
+  @apply bg-gradient-to-r from-amber-700 to-yellow-300
+}
+
+.bg-gradient-rock-fairy {
+  @apply bg-gradient-to-r from-amber-700 to-pink-300
+}
+
+.bg-gradient-rock-fighting {
+  @apply bg-gradient-to-r from-amber-700 to-red-700
+}
+
+.bg-gradient-rock-fire {
+  @apply bg-gradient-to-r from-amber-700 to-orange-500
+}
+
+.bg-gradient-rock-flying {
+  @apply bg-gradient-to-r from-amber-700 to-violet-400
+}
+
+.bg-gradient-rock-ghost {
+  @apply bg-gradient-to-r from-amber-700 to-violet-700
+}
+
+.bg-gradient-rock-grass {
+  @apply bg-gradient-to-r from-amber-700 to-green-400
+}
+
+.bg-gradient-rock-ground {
+  @apply bg-gradient-to-r from-amber-700 to-yellow-600
+}
+
+.bg-gradient-rock-ice {
+  @apply bg-gradient-to-r from-amber-700 to-cyan-300
+}
+
+.bg-gradient-rock-normal {
+  @apply bg-gradient-to-r from-amber-700 to-neutral-400
+}
+
+.bg-gradient-rock-poison {
+  @apply bg-gradient-to-r from-amber-700 to-purple-700
+}
+
+.bg-gradient-rock-psychic {
+  @apply bg-gradient-to-r from-amber-700 to-fuchsia-500
+}
+
+.bg-gradient-rock-steel {
+  @apply bg-gradient-to-r from-amber-700 to-slate-400
+}
+
+.bg-gradient-rock-water {
+  @apply bg-gradient-to-r from-amber-700 to-blue-400
+}
+
+/* STEEL */
+.bg-steel {
+  @apply bg-slate-500
+}
+
+.bg-gradient-steel {
+  @apply bg-gradient-to-b from-slate-300 to-slate-500
+}
+
+.bg-gradient-steel-bug {
+  @apply bg-gradient-to-r from-slate-400 to-lime-400
+}
+
+.bg-gradient-steel-dark {
+  @apply bg-gradient-to-r from-slate-400 to-neutral-700
+}
+
+.bg-gradient-steel-dragon {
+  @apply bg-gradient-to-r from-slate-400 to-indigo-700
+}
+
+.bg-gradient-steel-electric {
+  @apply bg-gradient-to-r from-slate-400 to-yellow-300
+}
+
+.bg-gradient-steel-fairy {
+  @apply bg-gradient-to-r from-slate-400 to-pink-300
+}
+
+.bg-gradient-steel-fighting {
+  @apply bg-gradient-to-r from-slate-400 to-red-700
+}
+
+.bg-gradient-steel-fire {
+  @apply bg-gradient-to-r from-slate-400 to-orange-500
+}
+
+.bg-gradient-steel-flying {
+  @apply bg-gradient-to-r from-slate-400 to-violet-400
+}
+
+.bg-gradient-steel-ghost {
+  @apply bg-gradient-to-r from-slate-400 to-violet-700
+}
+
+.bg-gradient-steel-grass {
+  @apply bg-gradient-to-r from-slate-400 to-green-400
+}
+
+.bg-gradient-steel-ground {
+  @apply bg-gradient-to-r from-slate-400 to-yellow-600
+}
+
+.bg-gradient-steel-ice {
+  @apply bg-gradient-to-r from-slate-400 to-cyan-300
+}
+
+.bg-gradient-steel-normal {
+  @apply bg-gradient-to-r from-slate-400 to-neutral-400
+}
+
+.bg-gradient-steel-poison {
+  @apply bg-gradient-to-r from-slate-400 to-purple-700
+}
+
+.bg-gradient-steel-psychic {
+  @apply bg-gradient-to-r from-slate-400 to-fuchsia-500
+}
+
+.bg-gradient-steel-rock {
+  @apply bg-gradient-to-r from-slate-400 to-amber-700
+}
+
+.bg-gradient-steel-water {
+  @apply bg-gradient-to-r from-slate-400 to-blue-400
+}
+
+/* WATER */
+.bg-water {
+  @apply bg-blue-500
+}
+
+.bg-gradient-water {
+  @apply bg-gradient-to-b from-blue-300 to-blue-500
+}
+
+.bg-gradient-water-bug {
+  @apply bg-gradient-to-r from-blue-400 to-lime-400
+}
+
+.bg-gradient-water-dark {
+  @apply bg-gradient-to-r from-blue-400 to-neutral-700
+}
+
+.bg-gradient-water-dragon {
+  @apply bg-gradient-to-r from-blue-400 to-indigo-700
+}
+
+.bg-gradient-water-electric {
+  @apply bg-gradient-to-r from-blue-400 to-yellow-300
+}
+
+.bg-gradient-water-fairy {
+  @apply bg-gradient-to-r from-blue-400 to-pink-300
+}
+
+.bg-gradient-water-fighting {
+  @apply bg-gradient-to-r from-blue-400 to-red-700
+}
+
+.bg-gradient-water-fire {
+  @apply bg-gradient-to-r from-blue-400 to-orange-500
+}
+
+.bg-gradient-water-flying {
+  @apply bg-gradient-to-r from-blue-400 to-violet-400
+}
+
+.bg-gradient-water-ghost {
+  @apply bg-gradient-to-r from-blue-400 to-violet-700
+}
+
+.bg-gradient-water-grass {
+  @apply bg-gradient-to-r from-blue-400 to-green-400
+}
+
+.bg-gradient-water-ground {
+  @apply bg-gradient-to-r from-blue-400 to-yellow-600
+}
+
+.bg-gradient-water-ice {
+  @apply bg-gradient-to-r from-blue-400 to-cyan-300
+}
+
+.bg-gradient-water-normal {
+  @apply bg-gradient-to-r from-blue-400 to-neutral-400
+}
+
+.bg-gradient-water-poison {
+  @apply bg-gradient-to-r from-blue-400 to-purple-700
+}
+
+.bg-gradient-water-psychic {
+  @apply bg-gradient-to-r from-blue-400 to-fuchsia-500
+}
+
+.bg-gradient-water-rock {
+  @apply bg-gradient-to-r from-blue-400 to-amber-700
+}
+
+.bg-gradient-water-steel {
+  @apply bg-gradient-to-r from-blue-400 to-slate-400
+}
