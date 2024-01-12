@@ -5,14 +5,24 @@ import type { Pokemon } from '@/types/pokemon'
 import api from '@/common/api'
 import { MAX_POKEMON_ID, MIN_POKEMON_ID } from '@/common/constants'
 
+import Loader from '@/components/Loader.vue'
 import PokemonCard from '@/components/PokemonCard.vue'
 
-const randomPokemon = ref<Pokemon>();
+const isLoading = ref<boolean>(false)
+const randomPokemon = ref<Pokemon>()
 
 const onRandomPokemonClick = async () => {
   const randomPokemonId = Math.floor(Math.random() * (MAX_POKEMON_ID - MIN_POKEMON_ID + 1) - MIN_POKEMON_ID)
-  const res = await api.pokemon.get(randomPokemonId)
-  randomPokemon.value = res.data
+  isLoading.value = true
+  
+  try {
+    const res = await api.pokemon.get(randomPokemonId)
+    randomPokemon.value = res.data
+  } catch (error) {
+    console.log(error)
+  }
+
+  isLoading.value = false
 }
 
 </script>
@@ -28,6 +38,7 @@ const onRandomPokemonClick = async () => {
       @click="onRandomPokemonClick">
         Random Pokémon
     </button>
-    <PokemonCard v-if="randomPokemon" :pokemon="randomPokemon" />
+    <Loader v-if="isLoading" />
+    <PokemonCard v-else-if="randomPokemon" :pokemon="randomPokemon" />
   </main>
 </template>
